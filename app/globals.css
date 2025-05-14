@@ -1,10 +1,32 @@
 @import "tailwindcss";
 
-:root {
-  --redRobin: #CC0000;
-  --pickleGreen: #009900;
-  --bunBeige: #E7DFC6;
-  --retroBlue: #351FC6;
-  --neonPink: #FF00FF;
+@theme {
+  --color-redRobin: #cc0000;
+  --color-pickleGreen: #009900;
+  --color-bunBeige: #e7dfc6;
+  --color-retroBlue: #351fc6;
+  --color-neonPink: #ff00ff;
+  --font-neueMontreal: neueMontreal;
+  --font-rightGrotesk: rightGrotesk;
 }
 
+h1 {
+  @apply font-rightGrotesk font-medium text-[84px] leading-[90px] tracking-[.5%];
+}
+
+h2 {
+  @apply font-rightGrotesk font-medium text-[48px] tracking-[.5%];
+}
+
+h3 {
+  @apply font-neueMontreal font-medium text-[30px] tracking-[.5%] leading-[30px];
+}
+
+h4,
+li {
+  @apply font-rightGrotesk font-medium text-[20px] tracking-[.5%] uppercase;
+}
+
+p {
+  @apply font-neueMontreal font-medium leading-[28px] tracking-[.5%];
+}
