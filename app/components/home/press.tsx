@@ -15,11 +15,11 @@ export default function Press() {
           className='w-full drop-shadow-[18px_14px_0_black]'
         />
         <h2 className='absolute top-4 left-1/2 -translate-x-[55%] translate-y-[23%] text-neonPink text-center leading-[56px] px-4 w-max'>
-          "When it comes to
+          &quot;When it comes to
           <br /> flavor, The ‘Burgs does it
           <br /> right. From the smash to
           <br /> classic meaty burgs, the
-          <br /> tastes are unbeatable."
+          <br /> tastes are unbeatable.&quot;
         </h2>
         <button className='h3 text-neonPink !font-semibold py-4 px-9 bg-bunBeige capitalize rounded-[15px] border-4 border-black drop-shadow-[14px_10px_0_black]'>
           la mag
@@ -37,11 +37,11 @@ export default function Press() {
           className='w-full drop-shadow-[18px_14px_0_black]'
         />
         <h2 className='absolute top-4 left-1/2 -translate-x-[50%] translate-y-[50%] text-neonPink text-center leading-[56px] px-4 w-max'>
-          "When it comes to
+          &quot;When it comes to
           <br /> flavor, The ‘Burgs does it
           <br /> right. From the smash to
           <br /> classic meaty burgs, the
-          <br /> tastes are unbeatable."
+          <br /> tastes are unbeatable.&quot;
         </h2>
         <button className='h3 text-neonPink !font-semibold py-4 px-9 bg-bunBeige capitalize rounded-[15px] border-4 border-black drop-shadow-[14px_10px_0_black] relative float-right left-12'>
           la mag
