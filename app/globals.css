@@ -44,7 +44,7 @@ h2,.h2 {
   @apply font-rightGrotesk font-semibold text-[48px] tracking-[.5%];
 }
 
-h3 {
+h3, .h3 {
   @apply font-neueMontreal font-medium text-[30px] tracking-[.5%] leading-[30px];
 }
 

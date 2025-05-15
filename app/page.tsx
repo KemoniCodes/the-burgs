@@ -4,6 +4,7 @@ import GreenBadge from "../public/greenBadge.png";
 import PinkLogo from "../public/pinkSecondary.png";
 import Cater from "./components/home/cater";
 import WordMarquee from "./components/home/marquee";
+import Press from "./components/home/press";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       </div>
       <Cater />
       <WordMarquee />
+      <Press/>
     </div>
   );
 }
