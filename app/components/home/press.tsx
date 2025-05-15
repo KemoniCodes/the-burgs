@@ -7,7 +7,7 @@ import Green from "../../../public/greenFries.svg";
 
 export default function Press() {
   return (
-    <div className='press border-y-black border-y-[7px] border-y-solid bg-neonPink py-20 h-[160vh]'>
+    <div className='press border-y-black border-y-[7px] border-y-solid bg-neonPink pt-20 h-[160vh]'>
       <div className='squareChat space-y-6 w-[55%] relative left-28'>
         <Image
           src={Square}

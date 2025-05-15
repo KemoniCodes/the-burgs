@@ -5,6 +5,8 @@ import PinkLogo from "../public/pinkSecondary.png";
 import Cater from "./components/home/cater";
 import WordMarquee from "./components/home/marquee";
 import Press from "./components/home/press";
+import BurgerBanner from "../public/burgerBanner.svg";
+import Hello from "./components/home/hello";
 
 export default function Home() {
   return (
@@ -32,7 +34,14 @@ export default function Home() {
       </div>
       <Cater />
       <WordMarquee />
-      <Press/>
+      <Press />
+      <div className='blueBurgerBanner absolute -z-10'>
+        <Image src={BurgerBanner} alt='word banner' />
+      </div>
+      <Hello />
+      <div className='blueBurgerBanner absolute -z-10'>
+        <Image src={BurgerBanner} alt='word banner' />
+      </div>
     </div>
   );
 }
