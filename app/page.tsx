@@ -39,7 +39,7 @@ export default function Home() {
         <Image src={BurgerBanner} alt='word banner' />
       </div>
       <Hello />
-      <div className='blueBurgerBanner absolute -z-10'>
+      <div className='blueBurgerBanner'>
         <Image src={BurgerBanner} alt='word banner' />
       </div>
     </div>

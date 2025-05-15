@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Banner from "./components/home/banner";
 import Nav from "./components/layout/nav";
+import Footer from "./components/layout/footer";
 
 const neueMontreal = localFont({
   src: "./fonts/PPNeueMontreal-Book.otf",
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Banner />
         <Nav/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

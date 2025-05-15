@@ -45,7 +45,7 @@ h2,.h2 {
 }
 
 h3, .h3 {
-  @apply font-neueMontreal font-medium text-[30px] tracking-[.5%] leading-[30px];
+  @apply font-neueMontreal font-semibold text-[30px] tracking-[.5%] leading-[30px];
 }
 
 h4,
