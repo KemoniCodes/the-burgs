@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Banner from "./components/home/banner";
+import Nav from "./components/layout/nav";
 
 const neueMontreal = localFont({
   src: "./fonts/PPNeueMontreal-Book.otf",
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${neueMontreal} ${rightGrotesk} antialiased bg-bunBeige`}>
         <Banner />
+        <Nav/>
         {children}
       </body>
     </html>
