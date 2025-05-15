@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./components/home/hero";
 import GreenBadge from "../public/greenBadge.png";
 import PinkLogo from "../public/pinkSecondary.png";
+import Cater from "./components/home/cater";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           className='absolute left-20 mt-20'
         />
       </div>
+      <Cater />
     </div>
   );
 }

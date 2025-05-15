@@ -14,7 +14,7 @@ h1 {
   @apply font-rightGrotesk font-semibold text-[84px] leading-[90px] tracking-[.5%];
 }
 
-h2 {
+h2,.h2 {
   @apply font-rightGrotesk font-semibold text-[48px] tracking-[.5%];
 }
 
@@ -29,7 +29,7 @@ li,
 }
 
 p {
-  @apply font-neueMontreal font-medium leading-[28px] tracking-[.5%];
+  @apply font-neueMontreal font-medium text-[24px] leading-[28px] tracking-[.5%];
 }
 
 nav li {
