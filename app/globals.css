@@ -10,6 +10,32 @@
   --font-rightGrotesk: rightGrotesk;
 }
 
+@keyframes marquee-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-y {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@utility animate-marquee-horizontal {
+  animation: marquee-x var(--duration, 20s) linear infinite;
+}
+
+@utility animate-marquee-vertical {
+  animation: marquee-y var(--duration, 10s) linear infinite;
+}
+
 h1 {
   @apply font-rightGrotesk font-semibold text-[84px] leading-[90px] tracking-[.5%];
 }

@@ -37,7 +37,7 @@ export default function Nav() {
           </li>
 
           <div className='cart ml-14'>
-            <li className="!mt-0">
+            <li className='!mt-0'>
               <Image src={Bag} alt='bag' width={25} height={31} />
             </li>
           </div>
