@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className='home'>
       <Hero />
-      <div className='section2 border-y-black border-y-[7px] border-y-solid py-[175px] px-[152px]'>
+      <div className='section2 border-y-black border-y-[7px] border-y-solid py-[175px] lg:px-[152px] px-[50px]'>
         <motion.div
           className='absolute right-0 top-[100vh]'
           animate={{ rotate: 20 }}

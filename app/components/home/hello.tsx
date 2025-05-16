@@ -14,7 +14,7 @@ export default function Hello() {
       <h1 className='text-retroBlue uppercase w-full text-center mb-32'>
         SAY HELLO @theburgs
       </h1>
-      <div className='igPosts flex justify-center gap-6 overflow-x-hidden !overflow-y-visible py-5'>
+      <div className='igPosts flex justify-center lg:gap-6 gap-2 overflow-x-hidden !overflow-y-visible py-5'>
         <Marquee className='[--duration:15s]'>
           <motion.div
             animate={{ rotate: -4 }}
@@ -24,13 +24,14 @@ export default function Hello() {
               duration: 0.8,
               ease: "easeInOut",
             }}
+            className=''
           >
             <Image
               src={Post1}
               alt='post'
               width={338}
               height={444}
-              className='border-black border-7 border-solid rounded-[41px] drop-shadow-[8px_6px_0_black] -rotate-[8deg]'
+              className='border-black border-7 border-solid rounded-[41px] drop-shadow-[8px_6px_0_black] -rotate-[8deg] lg:w-auto w-[70%]'
             />
           </motion.div>
           <motion.div
@@ -47,7 +48,7 @@ export default function Hello() {
               alt='post'
               width={338}
               height={444}
-              className='border-black border-[7px] border-solid rounded-[41px] rotate-[8deg] drop-shadow-[8px_6px_0_black]'
+              className='border-black border-[7px] border-solid rounded-[41px] rotate-[8deg] drop-shadow-[8px_6px_0_black] lg:w-auto w-[70%]'
             />
           </motion.div>
           <motion.div
@@ -64,7 +65,7 @@ export default function Hello() {
               alt='post'
               width={338}
               height={444}
-              className='border-black border-[7px] border-solid rounded-[41px] -rotate-[8deg] drop-shadow-[8px_6px_0_black]'
+              className='border-black border-[7px] border-solid rounded-[41px] -rotate-[8deg] drop-shadow-[8px_6px_0_black] lg:w-auto w-[70%]'
             />
           </motion.div>
           <motion.div
@@ -81,7 +82,7 @@ export default function Hello() {
               alt='post'
               width={338}
               height={444}
-              className='border-black border-[7px] border-solid rounded-[41px] rotate-[8deg] drop-shadow-[8px_6px_0_black]'
+              className='border-black border-[7px] border-solid rounded-[41px] rotate-[8deg] drop-shadow-[8px_6px_0_black] lg:w-auto w-[70%]'
             />
           </motion.div>
         </Marquee>

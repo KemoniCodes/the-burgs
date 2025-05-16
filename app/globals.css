@@ -37,14 +37,20 @@
 }
 
 h1 {
-  @apply font-rightGrotesk font-semibold text-[84px] leading-[90px] tracking-[.5%];
+  @apply font-rightGrotesk font-semibold lg:text-[84px] lg:leading-[90px] tracking-[.5%] text-[50px] leading-[60px];
 }
 
-h2,.h2 {
-  @apply font-rightGrotesk font-semibold text-[48px] tracking-[.5%];
+h2,
+.h2 {
+  @apply font-rightGrotesk font-semibold lg:text-[48px] text-[32px] tracking-[.5%];
 }
 
-h3, .h3 {
+.press h2 {
+  @apply lg:text-[48px] text-[22px];
+}
+
+h3,
+.h3 {
   @apply font-neueMontreal font-semibold text-[30px] tracking-[.5%] leading-[30px];
 }
 
@@ -65,4 +71,16 @@ nav li {
 .linkHover .span1,
 .linkHover .span2 {
   @apply duration-500;
+}
+
+.mobileMenu li {
+  @apply justify-self-center gap-8;
+}
+
+.mobileMenu li span {
+  @apply text-[82px];
+}
+
+.mobileMenu .linkHover {
+  @apply py-6;
 }

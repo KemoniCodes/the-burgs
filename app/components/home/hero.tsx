@@ -16,7 +16,10 @@ export default function Hero() {
         alt='heading'
         width={904}
         height={457}
-        className='relative m-auto top-[20%]'
+        className='relative m-auto 
+        lg:w-[904px]
+         w-[85%] 
+         top-[35%] lg:top-[20%]'
       />
     </div>
   );
