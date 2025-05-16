@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Square from "../../../public/squareChat.png";
 import Circle from "../../../public/circleChat.png";
 import Red from "../../../public/redPrimary.svg";
 import Green from "../../../public/greenFries.svg";
+import { motion } from "motion/react";
 
 export default function Press() {
   return (
@@ -25,11 +27,19 @@ export default function Press() {
           la mag
         </button>
       </div>
-      <Image
-        src={Red}
-        alt='red primary logo'
+      <motion.div
         className='absolute right-0 w-[35%] -mt-[40%]'
-      />
+        animate={{ rotate: 10 }}
+        transition={{
+          repeat: Infinity,
+          repeatType: "mirror",
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+      >
+        <Image src={Red} alt='red primary logo' />
+      </motion.div>
+
       <div className='circleChat space-y-6 w-[55%] relative right-28 float-right'>
         <Image
           src={Circle}
@@ -47,11 +57,18 @@ export default function Press() {
           la mag
         </button>
       </div>
-      <Image
-        src={Green}
-        alt='green fries basket stiicker'
+      <motion.div
         className='absolute left-8 mt-[50vh]'
-      />
+        animate={{ rotate: -10 }}
+        transition={{
+          repeat: Infinity,
+          repeatType: "mirror",
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+      >
+        <Image src={Green} alt='green fries basket sticker' />
+      </motion.div>
     </div>
   );
 }

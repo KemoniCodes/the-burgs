@@ -14,7 +14,7 @@ export default function Cater() {
             <br /> friendliness and the flavor straight to you!
           </p>
 
-          <button className='h2 text-center text-redRobin bg-bunBeige uppercase rounded-[15px] w-[80%] border-[5px] border-solid border-black drop-shadow-[14px_10px_0_black] mt-32 transition-all duration-300 active:translate-x-[2px] active:translate-y-[2px] active:drop-shadow-none'>
+          <button className='h2 text-center text-redRobin bg-bunBeige uppercase rounded-[15px] w-[80%] border-[5px] border-solid border-black drop-shadow-[14px_10px_0_black] mt-32 transition-all duration-300 active:translate-x-[2px] active:translate-y-[2px] active:drop-shadow-none cursor-pointer'>
             cater now
           </button>
         </div>
